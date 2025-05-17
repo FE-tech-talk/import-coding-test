@@ -1,0 +1,23 @@
+{
+  "name": "import-coding-test",
+  "version": "1.0.0",
+  "description": "코딩 테스트를 위한 패키지",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx cross-env NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FE-tech-talk/import-coding-test.git"
+  },
+  "author": "nice people",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FE-tech-talk/import-coding-test/issues"
+  },
+  "homepage": "https://github.com/FE-tech-talk/import-coding-test#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
