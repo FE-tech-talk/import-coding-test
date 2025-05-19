@@ -17,5 +17,4 @@ function solution2(numbers) {
   );
   const uniqueSorted = [...new Set(sums)].sort((a, b) => a - b);
   return uniqueSorted;
-}
-ㄴ;
+};

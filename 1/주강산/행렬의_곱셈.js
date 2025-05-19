@@ -1,4 +1,4 @@
-// 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/12949?language=javascript
+// 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/12949
 
 function solution(arr1, arr2) {
   const row1 = arr1.length;
