@@ -27,5 +27,4 @@ function solution(arr1, arr2) {
   }
   
   return result;
-
 }

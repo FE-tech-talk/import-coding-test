@@ -10,8 +10,6 @@ function solution(answers) {
   
   const count = [0,0,0]
   
-  console.log(answers);
-  
   for(let i=0; i<answers.length; i++) {
       const item = answers[i];
       
