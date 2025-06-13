@@ -26,7 +26,3 @@ function solution(stringList, queryList) {
   const set = new Set(stringList.map(hash));
   return queryList.map((q) => set.has(hash(q)));
 }
-
-console.log(
-  solution(["apple", "banana", "cherry"], ["banana", "kiwi", "melon", "apple"])
-);
