@@ -1,6 +1,7 @@
 // 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42888
 
 function solution(record) {
+  const answer = [];
   const uidToName = {}; 
   const actions = [];
 
@@ -16,8 +17,8 @@ function solution(record) {
       uidToName[uid] = name;  
     }
   }
-
-  return actions.map(([uid, action]) => {
-    return `${uidToName[uid]}님이 ${action}`;
-  });
+  actions.map(([uid, action]) => {
+    answer.push(`${uidToName[uid]}님이 ${action}`);
+  })
+  return answer;
 }
