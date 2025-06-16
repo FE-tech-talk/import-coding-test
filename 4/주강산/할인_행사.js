@@ -23,6 +23,7 @@ function solution(want, number, discount) {
   return answer;
 }
 
+
 // 해시 쓴 버전 
 function isShallowEqual(object1, object2) {
   const objKeys1 = Object.keys(object1);
