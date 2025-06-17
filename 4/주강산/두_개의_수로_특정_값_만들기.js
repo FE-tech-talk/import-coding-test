@@ -8,7 +8,7 @@
 // • arr의 원소 중 중복되는 원소는 없습니다.
 // • target은 1 이상 20,000 이하의 자연수입니다.
 
-function solution(arr, target){
+function solution(arr, target) {
   const seen = new Set();
 
   for (const num of arr) {
