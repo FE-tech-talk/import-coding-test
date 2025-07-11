@@ -1,3 +1,5 @@
+// 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42892
+
 function solution(nodeinfo) {
   const nodes = nodeinfo.map(([x, y], idx) => ({
     id: idx + 1,
